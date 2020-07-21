@@ -3,7 +3,7 @@
 Thanks for applying for a full-stack role at Outdoorsy. We've put together this code challenge. It should take around 4-6 hours to complete.
 
 ## Functionality
-The task is the develop an app, and it's backing API.  Users should be taken to a list of campervans then be able to navigate to a campervan detail page. Users should be able to type keywords into a text field to filter the API results to find relevant campervans. Finish by pushing your code to Github and deploying both the API and the frontend code to Heroku or another hosting environment.
+The task is the develop an app, and its backing API.  Users should be taken to a list of campervans then be able to navigate to a campervan detail page. Users should be able to type keywords into a text field to filter the API results to find relevant campervans. Finish by pushing your code to Github and deploying both the API and the frontend code to Heroku or another hosting environment.
 
 ### API
 Use the given Postgres database of campervans and create two endpoints. The first should return a list of campervans. The second should return a single campervan. We have a GOlang project ready to go for you or use whatever back-end technology in which you are comfortable.
