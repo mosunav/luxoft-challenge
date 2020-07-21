@@ -14,8 +14,8 @@ At Outdoorsy, we primarily use two frontend technologies Next.js and Ember.js. W
 ## Visual design
 We have provided a design mockup for the list view and the detail view. Feel free to elaborate on the mockups.
 
-![visual-designs/detail-view-sm.jpg](./visual-designs/list-view-sm.jpg)
-![visual-designs/detail-view-sm.jpg](./visual-designs/detail-view-sm.jpg)
+![visual-designs/list-view.jpg](./visual-designs/list-view-sm.jpg)
+![visual-designs/detail-view.jpg](./visual-designs/detail-view-sm.jpg)
 
 ## Notes
 - Write maintainable code.
