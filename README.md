@@ -29,4 +29,4 @@ We have provided a design mockup for the list view and the detail view. Feel fre
 
 When complete, please deploy your code to Heroku or similar hosting provider, then push your code to your Github account and share a link with us.
 
-Thank you, and please ask if you have any questions!
+Thank you, and please reach out if you have any questions!
