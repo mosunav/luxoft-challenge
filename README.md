@@ -14,6 +14,9 @@ At Outdoorsy, we primarily use two frontend technologies Next.js and Ember.js. W
 ## Visual design
 We have provided a design mockup for the list view and the detail view. Feel free to elaborate on the mockups.
 
+![visual-designs/detail-view-sm.jpg](./visual-designs/list-view-sm.jpg)
+![visual-designs/detail-view-sm.jpg](./visual-designs/detail-view-sm.jpg)
+
 ## Notes
 - Write maintainable code.
 - Please make frequent, and descriptive git commits.
@@ -30,3 +33,9 @@ We have provided a design mockup for the list view and the detail view. Feel fre
 When complete, please deploy your code to Heroku or similar hosting provider, then push your code to your Github account and share a link with us.
 
 Thank you, and please reach out if you have any questions!
+
+### Campervan list mockup
+![visual-designs/list-view-sm.jpg](./visual-designs/list-view.jpg)
+
+### Campervan detail mockup
+![visual-designs/detail-view-sm.jpg](./visual-designs/detail-view.jpg)
