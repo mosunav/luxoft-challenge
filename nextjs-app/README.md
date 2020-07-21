@@ -1,0 +1,1 @@
+## Outdoorsy Nextjs app boilerplate setup
