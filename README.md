@@ -1,12 +1,12 @@
 # Outdoorsy Fullstack Code Challenge
 
-Thanks for applying for a full-stack role at Outdoorsy. We've put together this code challenge. It should take around 4-6 hours to complete.
+Thanks for applying for a full-stack role at Outdoorsy. We've put together this code challenge which should take around 4-6 hours to complete.
 
 ## Functionality
-The task is the develop an app, and its backing API.  Users should be taken to a list of campervans then be able to navigate to a campervan detail page. Users should be able to type keywords into a text field to filter the API results to find relevant campervans. Finish by pushing your code to Github and deploying both the API and the frontend code to Heroku or another hosting environment.
+The task is to develop an app and its backing API.  Users should be taken to a list of campervans then be able to navigate to a campervan detail page. Users should be able to type keywords into a text field to filter the API results to find relevant campervans. Finish by pushing your code to Github and deploying both the API and the frontend code to Heroku or another hosting environment.
 
 ### API
-Use the given Postgres database of campervans and create two endpoints. The first should return a list of campervans. The second should return a single campervan. We have a GOlang project ready to go for you or use whatever back-end technology in which you are comfortable.
+Use the given Postgres database of campervans and create two endpoints. The first should return a list of campervans. The second should return a single campervan. We have a GOlang project ready to go, or you can use whatever back-end technology you are comfortable with.
 
 #### Database
 
@@ -36,7 +36,6 @@ We have provided a design mockup for the list view and the detail view. Feel fre
 - An ability to think through all potential states
 - Code design and style should be consistent and reasonable
 
-When complete, please deploy your code to Heroku or similar hosting provider, then push your code to your Github account and share a link with us.
 
 Thank you, and please reach out if you have any questions!
 
