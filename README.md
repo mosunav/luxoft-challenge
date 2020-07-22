@@ -24,7 +24,7 @@ We have provided a design mockup for the list view and the detail view. Feel fre
 ![files/visual-designs/detail-view.jpg](./files/visual-designs/detail-view-sm.jpg)
 
 ## Notes
-- Write maintainable code.
+- Write production ready code.
 - Please make frequent, and descriptive git commits.
 - Use third-party libraries or not; your choice.
 - The project should look good on a mobile device as well as a desktop.
