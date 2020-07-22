@@ -51,7 +51,7 @@ func main() {
 		w.Write([]byte("pong"))
 	})
 
-	http.ListenAndServe(":3000", r)
+	http.ListenAndServe(":8000", r)
 }
 
 func getDatabaseConnection() (*sql.DB, error) {
