@@ -8,6 +8,12 @@ The task is the develop an app, and its backing API.  Users should be taken to a
 ### API
 Use the given Postgres database of campervans and create two endpoints. The first should return a list of campervans. The second should return a single campervan. We have a GOlang project ready to go for you or use whatever back-end technology in which you are comfortable.
 
+#### Database
+
+Read-only permissions: 
+
+`postgres://readonly:pa252e9d8f25738f57dcf723df55ec49357b6d1e81a4b816a789b2612a461ceb1@ec2-54-166-184-3.compute-1.amazonaws.com:5432/d25nshigvhnsm`
+
 ### Frontend
 At Outdoorsy, we primarily use two frontend technologies Next.js and Ember.js. We have created a starter project in both technologies. Choose either starter project or if you would like to use another technology please feel free.
 
