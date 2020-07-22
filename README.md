@@ -1,12 +1,12 @@
 # Outdoorsy Frontend Coding Challenge
 
-Thanks for applying for a frontend role at Outdoorsy. We've put together this code challenge which should take around 4 hours to complete.
+Thanks for applying for a frontend role at Outdoorsy. We've put together this code challenge, which should take around 4 hours to complete.
 
 ## Functionality
-The task is to develop an web app using Outdoorsy rentals API. Users should be taken to a list of campervans then be able to navigate to a campervan detail page. Users should be able to type keywords into a text field to filter the API results to find relevant campervans. Finish by pushing your code to Github and deploying your code to Heroku or another hosting environment.
+The task is to develop a web app using Outdoorsy rentals API. Users should be taken to a list of campervans then be able to navigate to a campervan detail page. Users should be able to type keywords into a text field to filter the API results to find relevant campervans. Finish by pushing your code to Github and deploying your code to Heroku or another hosting environment.
 
 ### Frontend
-At Outdoorsy, we primarily use two frontend technologies Next.js and Ember.js. We have created a starter project in both technologies. Choose either starter project or if you would like to use another technology please feel free.
+At Outdoorsy, we primarily use two frontend technologies Next.js and Ember.js. We have created a starter project for both technologies. Choose either a starter project or if you would like to use another technology, please feel free.
 
 #### Visual design
 We have provided a design mockup for the list view and the detail view. Feel free to elaborate on the mockups.
@@ -24,7 +24,7 @@ GET https://odc-search-staging.herokuapp.com/rentals?filter[type]=camper-van
 Required: `filters[keywords]` - a space-separated string of search terms
 Optional: `page[limit]` - an integer that sets requested maximum result count
 Optional: `page[offset]` - an integer that sets the index of the first result
-(Example: a “third page” of 8 results would have limit of 8, offset of 16)
+(Example: a "third page" of 8 results would have a limit of 8, offset of 16)
 
 ##### GET Single Rental
 *URL* GET [https://odc-search-staging.herokuapp.com/rentals/<RENTAL_ID>](https://odc-search-staging.herokuapp.com/rentals/2000)
