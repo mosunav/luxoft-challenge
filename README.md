@@ -10,7 +10,7 @@ Use the given Postgres database of campervans and create two endpoints. The firs
 
 #### Database
 
-Read-only permissions: 
+Read-only permissions:
 
 `postgres://readonly:pa252e9d8f25738f57dcf723df55ec49357b6d1e81a4b816a789b2612a461ceb1@ec2-54-166-184-3.compute-1.amazonaws.com:5432/d25nshigvhnsm`
 
@@ -20,8 +20,8 @@ At Outdoorsy, we primarily use two frontend technologies Next.js and Ember.js. W
 ## Visual design
 We have provided a design mockup for the list view and the detail view. Feel free to elaborate on the mockups.
 
-![visual-designs/list-view.jpg](./visual-designs/list-view-sm.jpg)
-![visual-designs/detail-view.jpg](./visual-designs/detail-view-sm.jpg)
+![files/visual-designs/list-view.jpg](./files/visual-designs/list-view-sm.jpg)
+![files/visual-designs/detail-view.jpg](./files/visual-designs/detail-view-sm.jpg)
 
 ## Notes
 - Write maintainable code.
@@ -41,7 +41,7 @@ When complete, please deploy your code to Heroku or similar hosting provider, th
 Thank you, and please reach out if you have any questions!
 
 ### Campervan list mockup
-![visual-designs/list-view-sm.jpg](./visual-designs/list-view.jpg)
+![files/visual-designs/list-view-sm.jpg](./files/visual-designs/list-view.jpg)
 
 ### Campervan detail mockup
-![visual-designs/detail-view-sm.jpg](./visual-designs/detail-view.jpg)
+![files/visual-designs/detail-view-sm.jpg](./files/visual-designs/detail-view.jpg)
