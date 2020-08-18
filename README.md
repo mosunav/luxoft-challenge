@@ -9,7 +9,7 @@ The task is to develop a web app using Outdoorsy rentals API. Users should be ta
 At Outdoorsy, we primarily use two frontend technologies Next.js and Ember.js. We have created a starter project for both technologies. Choose either a starter project or if you would like to use another technology, please feel free.
 
 #### Visual design
-We have provided a design mockup for the list view and the detail view. Feel free to elaborate on the mockups.
+We have provided a design wireframe for the list view and the detail view. Please elaborate on the wireframes and make the design your own.
 
 ![](./files/visual-designs/list-view-sm.jpg)
 ![](./files/visual-designs/detail-view-sm.jpg)
