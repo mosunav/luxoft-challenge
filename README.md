@@ -18,13 +18,16 @@ We have provided a design wireframe for the list view and the detail view. Pleas
 
 ##### GET Rental List
 *URL:*
-GET https://odc-search-staging.herokuapp.com/rentals?filter[type]=camper-van
+GET https://odc-search-staging.herokuapp.com/rentals?filter[type]=camper-van&address=san%20francisco
 
 *Query parameters:*
 Required: `filters[keywords]` - a space-separated string of search terms
 Optional: `page[limit]` - an integer that sets requested maximum result count
 Optional: `page[offset]` - an integer that sets the index of the first result
 (Example: a "third page" of 8 results would have a limit of 8, offset of 16)
+
+*Note*
+If you don't get any camper vans in you results add `&address=san%20francisco` to the url. 
 
 ##### GET Single Rental
 *URL* GET [https://odc-search-staging.herokuapp.com/rentals/<RENTAL_ID>](https://odc-search-staging.herokuapp.com/rentals/2000)
