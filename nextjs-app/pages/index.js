@@ -1,9 +1,13 @@
 import React from 'react';
+import SearchField from './SearchField';
+import Cards from './Cards';
 
 export default function Home() {
   return (
-    <div className="max-w-screen-xl mx-auto mt-8">
-      <h1 className="text-5xl font-black text-gray-600">Start here</h1>
+    <div>
+      <h1 className="header">Campervans</h1>
+      <SearchField />
+      <Cards />
     </div>
   );
 }
