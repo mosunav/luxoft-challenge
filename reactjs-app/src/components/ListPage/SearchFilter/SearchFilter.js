@@ -2,7 +2,6 @@ import React from 'react'
 import './SearchFilter.css'
 
 export const SearchFilter = React.memo(({onChange, onClick, value, buttonTittle}) => {
-  console.log("SearchFilter -> Render...")
   return (
     <div className="search-filter-container">
       <p className="search-filter-title">Filter</p>
