@@ -1,0 +1,40 @@
+.price-label-container {
+  position: absolute;
+  top: 10.1vw;
+}
+
+.price-label-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px;
+}
+
+.price-label-box {
+  font-size: 11px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.price-label-stars-container {
+  display: inline-block;
+}
+
+.price-label-stars {
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+@media (max-width: 661px) {
+  .price-label-container {
+    position: initial;
+  }
+}
+
+@media (min-width: 1181px) {
+  .price-label-container {
+    top: 105px;
+  }
+}
