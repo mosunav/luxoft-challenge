@@ -37,3 +37,9 @@
   cursor: pointer;
   background-color: #53A242;
 }
+
+@media (max-width: 661px) {
+  .search-filter-input {
+    width: 100%;
+  }
+}

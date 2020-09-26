@@ -3,7 +3,7 @@ import { PriceLabel } from '../PriceLabel/PriceLabel'
 import { useHistory } from 'react-router-dom'
 import "./ListCard.css"
 
-export const ListCard = ({data, path}) => {
+export const ListCard = React.memo(({data, path}) => {
   const history = useHistory();
 
   const goToHandler = () => {
@@ -31,4 +31,4 @@ export const ListCard = ({data, path}) => {
       </div>
     </div>
   )
-}
+})

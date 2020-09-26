@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { ListCard } from './ListCard/ListCard'
 import { SearchFilter } from './SearchFilter/SearchFilter'
+import { LoadingBar } from '../GlobalComponents/LoadingBar/LoadingBar'
 import "./ListPage.css"
 
 let notFilteredResults = []
@@ -10,6 +11,7 @@ export const ListPage = () => {
   const [camperVans, setCamperVans] = useState([])
   const [inputText, setInputText] = useState("")
   const [pageOffset, setPageOffset] = useState(0)
+  const [loading, setLoading] = useState(true)
   const [buttonTitle, setButtonTitle] = useState('Filter')
 
   // inititalResults is filled with initial data
@@ -19,6 +21,7 @@ export const ListPage = () => {
     .then(data => {
       notFilteredResults = [...data.data]
       setCamperVans([...notFilteredResults])
+      setLoading(false)
     })
   }, []);
 
@@ -34,6 +37,7 @@ export const ListPage = () => {
         })]
         notFilteredResults = [...finalArray]
         setCamperVans([...notFilteredResults])
+        setLoading(false)
       })
     }
   }, [pageOffset])
@@ -41,6 +45,7 @@ export const ListPage = () => {
   const loadMoreHandler = useCallback(() => {
     setPageOffset(pageOffset + 8)
     setInputText("")
+    setLoading(true)
     setButtonTitle('Filter')
   }, [pageOffset])
 
@@ -81,9 +86,13 @@ export const ListPage = () => {
             return <ListCard key={elem.id} data={elem.attributes} path={`/rentals/camper-vans/details/${elem.id}`} />
           })}
         </div>
-        <div className="list-page-load-more">
-          <button className="list-page-load-more-button" onClick={loadMoreHandler}>Load more</button>
-        </div>
+        {(loading) ? 
+          <LoadingBar />
+          : (
+            <div className="list-page-load-more">
+              <button className="list-page-load-more-button" onClick={loadMoreHandler}>Load more</button>
+            </div>
+          )}
       </div>
     </div>
   )
