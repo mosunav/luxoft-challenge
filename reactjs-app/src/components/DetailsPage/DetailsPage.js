@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './DetailsPage.css'
 import { PhotosGallery } from './PhotosGallery/PhotosGallery'
 import { InfoDetails } from './InfoDetails/InfoDetails'
+import { PageNotFound } from '../GlobalComponents/PageNotFound/PageNotFound'
 
 export const DetailsPage = () => {
 
@@ -20,6 +21,9 @@ export const DetailsPage = () => {
 
   return (
     <div>
+      {data.status &&
+        <PageNotFound />}
+
       {(data && data.included) ? 
         <PhotosGallery images={data.included.filter(el => el.type.toLowerCase().includes('images'))} /> : null}
       {(data && data.data && data.data.attributes) ? 

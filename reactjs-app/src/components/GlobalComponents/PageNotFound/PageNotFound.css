@@ -1,0 +1,15 @@
+.page-not-found-container {
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  right: 5%;
+  left: 5%;
+  text-align: center;
+  background-color: gray;
+}
+
+.page-not-found-label {
+  margin-top: 10%;
+  font-size: 20px;
+  font-weight: bold;
+}
