@@ -1,23 +1,23 @@
-.list-page-container {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.list-page-main-title {
-  font-size: 30px;
-  font-weight: bold;
-  margin: 0px;
+.search-filter-container {
   text-align: left;
 }
 
-.list-page-load-more {
-  text-align: center;
-  margin-top: 40px;
+.search-filter-title {
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 15px;
 }
 
-.list-page-load-more-button {
+.search-filter-input {
+  margin-top: 10px;
+  height: 30px;
+  width: 70%;
+  box-sizing: border-box;
+  margin-left: 1px;
+  max-width: 350px;
+}
+
+.search-filter-button {
   background-color: green;
   color: white;
   font-size: 12px;
@@ -33,7 +33,7 @@
   vertical-align: middle;
 }
 
-.list-page-load-more-button:hover {
+.search-filter-button:hover {
   cursor: pointer;
   background-color: #53A242;
 }
