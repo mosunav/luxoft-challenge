@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './DetailsPage.css'
+import { PhotosGallery } from './PhotosGallery/PhotosGallery'
+import { InfoDetails } from './InfoDetails/InfoDetails'
 
 export const DetailsPage = () => {
+
+  const [data, setData] = useState({})
+
+  useEffect(() => {
+    const chunksUrl = window.location.pathname.split('/')
+    const articleId = chunksUrl[chunksUrl.length - 1]
+
+    fetch(`${process.env.REACT_APP_API_ARTICULE_URL + articleId}`)
+    .then(response => response.json())
+    .then(data => {
+      setData({...data})
+    })
+  }, [])
+
   return (
     <div>
-      <h1>Details Page...</h1>
+      {(data && data.included) ? 
+        <PhotosGallery images={data.included.filter(el => el.type.toLowerCase().includes('images'))} /> : null}
+      {(data && data.data && data.data.attributes) ? 
+        <InfoDetails data={data.data.attributes} userData={data.included.filter(el => el.type.toLowerCase().includes("users"))} /> : null}
     </div>
   )
 }
