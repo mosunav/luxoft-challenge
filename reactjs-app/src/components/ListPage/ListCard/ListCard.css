@@ -48,3 +48,43 @@
   max-width: 303px;
   border: solid 1px lightgray;
 }
+
+@media (max-width: 661px) {
+  .list-card-container {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .list-card-column {
+    width: 100%;
+    display: block;
+    min-height: auto;
+  }
+
+  .list-card-image {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    max-height: none;
+  }
+
+  .list-card-info-details-column {
+    padding: 0px;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    height: auto;
+    min-height: none;
+  }
+
+}
+
+@media (min-width: 764px) {
+  .list-card-info-details-column {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

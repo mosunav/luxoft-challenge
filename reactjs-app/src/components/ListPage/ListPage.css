@@ -12,6 +12,10 @@
   text-align: left;
 }
 
+.list-page-results-container {
+  margin-top: 10px;
+}
+
 .list-page-load-more {
   text-align: center;
   margin-top: 40px;
@@ -36,4 +40,10 @@
 .list-page-load-more-button:hover {
   cursor: pointer;
   background-color: #53A242;
+}
+
+@media (max-width: 661px) {
+  .list-page-main-title {
+    text-align: center;
+  }
 }
