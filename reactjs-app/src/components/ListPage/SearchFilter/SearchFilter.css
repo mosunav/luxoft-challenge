@@ -42,4 +42,9 @@
   .search-filter-input {
     width: 100%;
   }
+
+  .search-filter-button {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
 }
