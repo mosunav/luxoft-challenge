@@ -16,3 +16,4 @@ describe('<App />', () => {
     expect(app.find(Switch).length).toEqual(1)
   })
 })
+

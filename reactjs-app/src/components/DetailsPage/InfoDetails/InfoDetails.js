@@ -9,7 +9,7 @@ export const InfoDetails = ({data, userData}) => {
         <p className="info-details-name"><b>{data.name}</b></p>
       </div>
       <div className="info-details-price-container">
-      <p className="info-details-price-label">${data.price_per_day}</p>
+        <p className="info-details-price-label">${data.price_per_day}</p>
       </div>
       <div className="info-details-avatar-container">
         <img className="info-details-avatar-image" src={userData[0].attributes.avatar_url} alt={`${userData[0].attributes.first_name} ${userData[0].attributes.last_name}`} />
