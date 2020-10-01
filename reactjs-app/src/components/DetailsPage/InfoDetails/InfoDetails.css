@@ -55,6 +55,7 @@
   height: 40px;
   border-radius: 50%;
   vertical-align: middle;
+  object-fit: cover;
 }
 
 .info-details-avatar-name {

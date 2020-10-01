@@ -47,6 +47,7 @@
   max-height: 168px;
   max-width: 303px;
   border: solid 1px lightgray;
+  object-fit: cover;
 }
 
 @media (max-width: 661px) {
