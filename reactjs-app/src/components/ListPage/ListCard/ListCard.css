@@ -107,7 +107,7 @@
   }
 
   .list-card-info-name {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
@@ -116,5 +116,9 @@
     padding: 10px;
     padding-left: 24px;
     padding-right: 51px;
+  }
+
+  .list-card-info-name {
+    font-size: 14px;
   }
 }
