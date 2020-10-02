@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './PhotosGallery.css'
 
 export const PhotosGallery = ({images}) => {
+
+  const containerScrollRef = useRef(null)
 
   const fillsWithNotFoundImages = () => {
     const imagesNumber = (4 - images.length)
@@ -21,8 +23,22 @@ export const PhotosGallery = ({images}) => {
     e.target.src = window.location.origin + '/img/image-not-found.png'
   }
 
+  const scrollToLeftHandler = () => {
+    containerScrollRef.current.scrollTo({
+      behavior: 'smooth',
+      left: 0
+     })
+  }
+
+  const scrollToRightHandler = () => {
+    containerScrollRef.current.scrollTo({
+      behavior: 'smooth',
+      left: containerScrollRef.current.scrollWidth
+     })
+  }
+
   return (
-    <div className="photos-gallery-container-overflow">
+    <div className="photos-gallery-container-overflow" ref={containerScrollRef}>
       <div className="photos-gallery-container">
         {images.map((image, index) => (
           (index === 3) ? 
@@ -55,6 +71,8 @@ export const PhotosGallery = ({images}) => {
           </div>
         ))}
       </div>
+      <button className={'photos-gallery-left-scroll-button'} onClick={scrollToLeftHandler}>{'<'}</button>
+      <button className={'photos-gallery-right-scroll-button'} onClick={scrollToRightHandler}>{'>'}</button>
     </div>
   )
 }

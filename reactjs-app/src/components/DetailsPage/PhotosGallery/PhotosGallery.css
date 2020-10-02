@@ -1,6 +1,6 @@
 .photos-gallery-container-overflow {
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: hidden;
   height: 50vh;
   max-height: 350px;
   max-width: 100%;
@@ -39,6 +39,49 @@
   object-fit: cover;
 }
 
+.photos-gallery-left-scroll-button {
+  position: absolute;
+  top: 145px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: lightslategray;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  font-size: 36px;
+  cursor: pointer;
+  display: initial;
+}
+
+.photos-gallery-right-scroll-button {
+  position: absolute;
+  top: 145px;
+  right: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: lightslategray;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  font-size: 36px;
+  cursor: pointer;
+  display: initial;
+}
+
+.photos-gallery-left-scroll-button:hover {
+  background-color: rgb(164, 170, 177);
+}
+
+.photos-gallery-right-scroll-button:hover {
+  background-color: rgb(164, 170, 177);
+}
+
 @media (max-width: 661px) {
   .photos-gallery-container-overflow {
     overflow-x: hidden;
@@ -63,6 +106,14 @@
   .photos-gallery-image {
     width: 100%;
     height: 264px;
+  }
+
+  .photos-gallery-left-scroll-button {
+    display: none;
+  }
+
+  .photos-gallery-right-scroll-button {
+    display: none;
   }
 }
 
