@@ -30,7 +30,7 @@ export const DetailsPage = () => {
       {(data && data.data && data.data.attributes) ? 
         <InfoDetails data={data.data.attributes} userData={data.included.filter(el => el.type.toLowerCase().includes("users"))} /> : null}
 
-      {(data.status || data && data.included) ?
+      {((data.status) || (data && data.included)) ?
         <div className={"details-page-go-button-container"}>
           <a href={'/rentals/camper-vans/'} className={"details-page-go-button"}>Go to Campervans</a>
         </div> : null}
