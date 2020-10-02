@@ -1,5 +1,5 @@
 .info-details-container {
-  width: 95%;
+  width: 90%;
   max-width: 809px;
   margin: auto;
   margin-top: 20px;
@@ -69,8 +69,8 @@
 @media(max-width: 661px) {
   .info-details-container {
     margin-top: 30px;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .info-details-price-label {
