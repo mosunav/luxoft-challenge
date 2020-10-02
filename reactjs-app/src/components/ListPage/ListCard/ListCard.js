@@ -4,7 +4,9 @@ import { useHistory } from 'react-router-dom'
 import "./ListCard.css"
 
 export const ListCard = React.memo(({data, path}) => {
+
   const history = useHistory();
+  const formatedType = data.type.split('-').join(' ').toUpperCase()
 
   const goToHandler = () => {
     history.push(path)
@@ -25,7 +27,7 @@ export const ListCard = React.memo(({data, path}) => {
         />
       </div>
       <div className="list-card-column list-card-info-details-column">
-        <p className="list-card-info-type">{`${data.type.toUpperCase()} `} &#9679; {` ${data.location.city.toUpperCase()}, ${data.location.state.toUpperCase()}`}</p>
+        <p className="list-card-info-type">{`${formatedType} `} &#9679; {` ${data.location.city.toUpperCase()}, ${data.location.state.toUpperCase()}`}</p>
         <p className="list-card-info-name"><b>{data.name}</b></p>
         <PriceLabel price={data.price_per_day} score={data.owner_score} />
       </div>
