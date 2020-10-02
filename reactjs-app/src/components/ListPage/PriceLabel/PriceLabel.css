@@ -1,6 +1,6 @@
 .price-label-container {
   position: absolute;
-  top: 10.1vw;
+  top: 114px;
 }
 
 .price-label-text {
@@ -36,10 +36,19 @@
   .price-label-container {
     position: initial;
   }
+
+  .price-label-text {
+    font-size: 21px;
+  }
+
+  .price-label-box {
+    font-size: 13px;
+    margin-left: 5px;
+  }
 }
 
 @media (min-width: 1181px) {
   .price-label-container {
-    top: 105px;
+    top: 114px;
   }
 }
