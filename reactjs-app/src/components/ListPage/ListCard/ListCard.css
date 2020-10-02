@@ -44,7 +44,7 @@
   margin: 0px;
   font-weight: bold;
   color: darkslategray;
-  font-size: 15px;
+  font-size: 11px;
   margin-top: 10px;
 }
 
@@ -104,6 +104,10 @@
 @media (min-width: 764px) {
   .list-card-info-details-column {
     padding: 10px;
+  }
+
+  .list-card-info-name {
+    font-size: 15px;
   }
 }
 

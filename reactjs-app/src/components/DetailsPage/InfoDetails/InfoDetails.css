@@ -67,9 +67,15 @@
 }
 
 @media(max-width: 661px) {
+  .info-details-container {
+    margin-top: 30px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
   .info-details-price-label {
     position: absolute;
-    top: 160px;
+    top: 265px;
     right: 20px;
   }
 
@@ -80,5 +86,4 @@
   .info-details-type {
     font-size: 13px;
   }
-
 }
