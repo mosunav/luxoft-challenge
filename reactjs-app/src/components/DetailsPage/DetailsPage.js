@@ -26,8 +26,13 @@ export const DetailsPage = () => {
 
       {(data && data.included) ? 
         <PhotosGallery images={data.included.filter(el => el.type.toLowerCase().includes('images'))} /> : null}
+      
       {(data && data.data && data.data.attributes) ? 
         <InfoDetails data={data.data.attributes} userData={data.included.filter(el => el.type.toLowerCase().includes("users"))} /> : null}
+
+      <div className={"details-page-go-button-container"}>
+        <a href={'/rentals/camper-vans/'} className={"details-page-go-button"}>Go to Campervans</a>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,24 @@
+.details-page-go-button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.details-page-go-button {
+  background-color: orangered;
+  color: white;
+  font-size: 15px;
+  height: 50px;
+  box-sizing: border-box;
+  border-color: orangered;
+  border-radius: 3px;
+  outline: none;
+  border-style: none;
+  padding: 10px 20px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.details-page-go-button:hover {
+  background-color: rgb(255, 145, 0);
+  cursor: pointer;
+}
