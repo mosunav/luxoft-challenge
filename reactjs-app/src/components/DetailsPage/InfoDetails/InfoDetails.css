@@ -1,6 +1,6 @@
 .info-details-container {
   width: 90%;
-  max-width: 809px;
+  max-width: 1000px;
   margin: auto;
   margin-top: 20px;
   text-align: left;
@@ -11,18 +11,21 @@
   color: gray;
   font-weight: bold;
   font-size: 15px;
+  font-family: calibri;
 }
 
 .info-details-name {
   margin: 0px;
-  color: black;
+  color: darkslategray;
   font-size: 25px;
   font-weight: bold;
+  font-family: calibri;
 }
 
 .info-details-titles-container {
   display: inline-block;
   width: 70%;
+  padding-left: 0px;
 }
 
 .info-details-price-container {
@@ -64,26 +67,41 @@
   margin: 0px;
   margin-left: 15px;
   font-weight: bold;
+  font-family: calibri;
 }
 
 @media(max-width: 661px) {
   .info-details-container {
     margin-top: 30px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
   }
 
   .info-details-price-label {
     position: absolute;
-    top: 265px;
+    top: 226px;
     right: 20px;
+    font-size: 17px;
   }
 
   .info-details-name {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .info-details-type {
-    font-size: 13px;
+    font-size: 19px;
+  }
+
+  .info-details-avatar-image {
+    width: 65px;
+    height: 65px;
+  }
+
+  .info-details-avatar-name {
+    font-size: 25px;
+  }
+
+  .info-details-titles-container {
+    padding-left: 7px;
   }
 }
