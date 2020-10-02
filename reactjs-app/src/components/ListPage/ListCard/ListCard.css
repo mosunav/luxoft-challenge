@@ -32,7 +32,10 @@
 .list-card-info-type {
   margin: 0px;
   font-weight: bold;
-  color: gray;
+  color: dimgray;
+  font-family: sans-serif;
+  letter-spacing: 0.2px;
+  font-size: 15px;
 }
 
 .list-card-info-name {
@@ -48,6 +51,7 @@
   max-width: 303px;
   border: solid 1px lightgray;
   object-fit: cover;
+  border-radius: 4px;
 }
 
 @media (max-width: 661px) {
@@ -74,9 +78,8 @@
 
   .list-card-info-details-column {
     padding: 0px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 12px;
-    margin-top: 5px;
     height: auto;
     min-height: none;
   }

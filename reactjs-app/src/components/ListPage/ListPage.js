@@ -52,7 +52,7 @@ export const ListPage = () => {
   const onChangeHandler = useCallback(e => {
     setInputText(e.target.value)
     if (e.target.value === "") {
-      setButtonTitle('Remove filter')
+      setButtonTitle('Remove Filter')
     } else {
       setButtonTitle('Filter')
     }

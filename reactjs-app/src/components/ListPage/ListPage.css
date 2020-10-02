@@ -6,7 +6,7 @@
 }
 
 .list-page-main-title {
-  font-size: 30px;
+  font-size: 49px;
   font-weight: bold;
   margin: 0px;
   text-align: left;
@@ -43,7 +43,8 @@
 }
 
 @media (max-width: 661px) {
-  .list-page-main-title {
-    text-align: center;
+  .list-page-container {
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 }
