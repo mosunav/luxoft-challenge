@@ -6,6 +6,7 @@
   margin-top: 20px;
   margin-left: 0px;
   margin-right: 0px;
+  max-height: 168px;
 }
 
 .list-card-container:hover {
@@ -41,15 +42,13 @@
 .list-card-info-name {
   margin: 0px;
   font-weight: bold;
-  color: black;
+  color: darkslategray;
+  font-size: 17px;
 }
 
 .list-card-image {
-  width: 22vw;
-  height: 15vw;
-  max-height: 168px;
-  max-width: 303px;
-  border: solid 1px lightgray;
+  width: 100%;
+  height: 168px;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -58,9 +57,10 @@
   .list-card-container {
     width: 100%;
     display: block;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+    max-height: initial;
   }
 
   .list-card-column {
@@ -72,8 +72,9 @@
   .list-card-image {
     width: 100%;
     max-width: none;
-    height: auto;
+    height: 100%;
     max-height: none;
+    border-radius: 6px;
   }
 
   .list-card-info-details-column {
@@ -82,6 +83,10 @@
     font-size: 12px;
     height: auto;
     min-height: none;
+  }
+
+  .list-card-container:hover {
+    box-shadow: none;
   }
 
 }
